@@ -1,0 +1,76 @@
+body
+{ 
+		background-color: #002B36;
+		color: #567075;
+		font-size:20px;
+}
+
+header
+{
+	font-weight: bold;
+	color: #B58900;
+	text-align: center;
+	font-size:35px ;
+	padding: 40px;
+}
+.maintable
+{
+	width: 100%;
+	height: 100%;
+}
+
+th{
+	color: #859900;
+	}
+
+.welcome
+{
+	color: #D33681;
+}
+
+.sidebar
+{
+	border-collapse: collapse;
+	border: 1px solid #457582;
+	margin-left: none;
+}
+
+.book
+{
+	text-align: center;
+	border: 1px solid #457582;
+}
+.clickonabook
+{
+	text-align: center;
+}
+p
+{
+	text-align: center;
+	color: #859900;
+}
+
+footer
+{
+	position: absolute;
+	bottom: 40px;
+	width: 100%;
+	text-align: center;
+	color: #259F98;
+}
+.button
+{
+	text-align: center;
+}
+.feedbackheadertable
+{
+	width: 100%;
+}
+.feedback
+{
+	text-align: left;
+}
+.YTM
+{
+	text-align: right;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--Does not save info-->
+<html lang = en>
+	
+	<head>
+		<title>Feedback</title>
+		<link rel="stylesheet" href= "styles.css">
+		<link rel="stylesheet" href= "feedback.css">
+	</head>
+	<body>
+		<script src="HelloWorld.js"></script>
+		<header>
+			<table class="feedbackheadertable">
+			<tr><td class="feedback">Feedback</td><td class="YTM">Your thoughts matter</td></tr>
+			</table>
+		</header>
+		<hr>
+<form id="formfeedback">
+<table class="input_section_table">
+	<tr><td>First Name*</td><td> : </td><td><input id="idfname" name="first_name" type="text"></td></tr>
+	<tr><td>Middle Name</td><td>: </td><td><input id="idmname" name="middle_name" type="text"></td></tr>
+	<tr><td>Last Name*</td><td>  : </td><td><input id="idlname" name="last_name" type="text"></td></tr>
+	<tr><td>Suggestion*</td><td> : </td><td><input id="idsugg" name="suggestion"></td></tr>
+	<tr><td>Gender*</td><td>     : </td><td>Male<input type="radio" id="idmale" name= "gender">
+										   Female<input type="radio" id="idfemale" name= "gender"></td></tr>
+	<tr><td class="buttons"><button onclick="submit()">+</button>
+	</td><td class="buttons" colspan="2"><button onclick="reset()">-</button></td></tr>
+	<tr><td colspan="3"><i>* = mandatory</i></td></tr>
+</table>
+</form>
+<table>
+	
+</table>
+		<footer>
+			<hr>
+			<a href= "aboutme.html">Home</a>
+		</footer>
+	</body>
+	
+</html>
